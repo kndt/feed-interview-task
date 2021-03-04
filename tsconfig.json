@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"allowJs": true,
+		"target": "ES5",
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"forceConsistentCasingInFileNames": true,
+	},
+	"include": [
+		"app.ts",
+		"types.ts",
+		"helpers.ts",
+		"package.json",
+		"package-lock.json"
+	],
+	"exclude": ["node_modules"]
+}
